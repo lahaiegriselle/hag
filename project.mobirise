@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Achat.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "journalm5",
       "title": "JournalM5",
@@ -48,7 +48,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 57,
+    "uniqCompNum": 72,
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "chatbutton": {},
@@ -67,8 +67,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Accueil- faites de votre prochain pessah une experience inoubliable",
-        "meta_descr": "",
+        "title": "Accueil - faites de votre prochain pessah une experience inoubliable",
+        "meta_descr": " faites de votre prochain pessah une experience inoubliable avec les hagadotes de pessah richeùment illustrees et enluminées . un cadeau pour la vie",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -2014,7 +2014,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -3387,7 +3387,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -4438,9 +4438,77 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".display-1": {
+              "@media (min-width: 992px)": {
+                "font-size": "80px"
+              }
+            },
+            ".container-fluid": {
+              "padding-left": "12px",
+              "padding-right": "12px",
+              "@media (min-width: 992px)": {
+                "padding-left": "16px",
+                "padding-right": "16px"
+              }
+            },
+            ".row": {
+              "padding": "0 32px"
+            },
+            ".text-container": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center",
+              "padding": "0"
+            },
+            ".card-title": {
+              "width": "100%",
+              "margin-bottom": "20px",
+              "color": "#c8a635"
+            },
+            ".mbr-text": {
+              "margin-bottom": "10px",
+              "color": "#3d3d3d"
+            },
+            ".iconfont-wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "margin": "20px 0"
+            },
+            ".link-contacts": {
+              "display": "flex",
+              "justify-content": "center"
+            },
+            ".emerging-underline-link": {
+              "color": "#3d3d3d",
+              "&:not(:last-child)": {
+                "margin-right": "15px"
+              }
+            }
+          },
+          "_name": "header6",
+          "_sourceTheme": "journalm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header6\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Icon\" name=\"showIcon\">\n        <input type=\"checkbox\" title=\"Links\" name=\"showLinks\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1142.png\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#e9eaf8\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#e9eaf8\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container-fluid\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 text-container\" mbr-if=\"showTitle || showText || showButton || showLabel\">\n                <h4 class=\"card-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                    Page en Construction</h4>\n                <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                    Check out some of the projects that came out of<br> our creative workshops in the last few years.\n                </p>\n                <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-down mobi-mbri mb-2\" style=\"font-size: 30px; color: #3d3d3d; fill: #3d3d3d;\"></span>\n                </div>\n                <div class=\"link-wrap\" mbr-if=\"showLinks\">\n                    <p class=\"link link-contacts mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".link-contacts\">\n                        <a class=\"emerging-underline-link\" href=\"#\">Instagram</a>\n                        <a class=\"emerging-underline-link\" href=\"#\">Behance</a>\n                        <a class=\"emerging-underline-link\" href=\"#\">Twitter</a>\n                        <a class=\"emerging-underline-link\" href=\"#\">Dribbble</a>\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sUFXxMfhJL",
+          "_anchor": "header6-1l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
@@ -4575,7 +4643,7 @@
           },
           "_name": "form2",
           "_sourceTheme": "journalm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form2\" group=\"Form\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\" checked=\"\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n        <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n        <input type=\"color\" title=\"Color\" value=\"#fffdf7\" selected=\"\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fffdf7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main-container col-12\">\n        <div class=\"content col-12\">\n            <p class=\"mbr-text mbr-fonts-style text-with-round align-center m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showLabel\" data-app-selector=\".text-with-round\">\n                Contactez nous</p>\n            <h1 class=\"mbr-section-title mbr-fonts-style align-center title mt-2\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Merci de nous laisser vos coordonnées !\n            </h1>\n            <div mbr-form=\"\" class=\"mbr-form-container\">\n<!--Formbuilder Form-->\n<form action=\"guchik178@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12 form-group mb-3 form-name\" data-for=\"name\">\n<input type=\"text\" name=\"name\" placeholder=\"Nom+Prenom\" data-form-field=\"name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value=\"\">\n</div>\n<div class=\"col-lg-8 col-md-12 col-sm-12 form-group mb-3 form-email\" data-for=\"email\">\n<input type=\"email\" name=\"email\" placeholder=\"Type your email...\" data-form-field=\"email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value=\"\">\n</div>\n<div data-for=\"telephone\" class=\"col-lg-4 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"telephone\" placeholder=\"Telephone\" data-form-field=\"telephone\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value=\"\">\n</div>\n<div data-for=\"Quelle Hagada vous interesse\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text=\"\" mbr-theme-style=\"display-7\" for=\"Quelle Hagada vous interesse\" class=\"form-control-label mbr-fonts-style\">Quelle Hagada vous interesse</label>\n<select name=\"Quelle Hagada vous interesse\" data-form-field=\"Quelle Hagada vous interesse\" mbr-theme-style=\"display-7\" class=\"form-control form-select\">\n<option value=\"Tunisienne\">Tunisienne</option>\n<option value=\"Marocaine\">Marocaine</option>\n<option value=\"Sepharade\">Sepharade</option>\n<option value=\"Ashkénaze\">Ashkénaze</option>\n</select>\n</div>\n<div data-for=\"textarea\" class=\"col-lg-12 form-group mb-3 form-message\">\n<textarea name=\"textarea\" placeholder=\"Message\" data-form-field=\"textarea\" mbr-theme-style=\"display-7\" class=\"form-control form-textarea\"></textarea>\n</div>\n<div class=\"col-lg-12 mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 w-100 btn btn-black-outline\">envoyez</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form2\" group=\"Form\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Label\" name=\"showLabel\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n        <input type=\"color\" title=\"Color\" value=\"#fffdf7\" selected>\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fffdf7\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"main-container col-12\">\n        <div class=\"content col-12\">\n            <p class=\"mbr-text mbr-fonts-style text-with-round align-center m-0\" mbr-theme-style=\"display-7\" mbr-if=\"showLabel\" data-app-selector=\".text-with-round\">Merci de nous laisser vos coordonnées !</p>\n            <h1 class=\"mbr-section-title mbr-fonts-style align-center title mt-2\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Nous vous recontacterons vite!\n            </h1>\n            <div mbr-form class=\"mbr-form-container\">\n<!--Formbuilder Form-->\n<form action=\"guchik178@gmail.com\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea row\">\n<div class=\"col-lg-12 form-group mb-3 form-name\" data-for=\"name\">\n<input type=\"text\" name=\"name\" placeholder=\"Nom+Prenom\" data-form-field=\"name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-8 col-md-12 col-sm-12 form-group mb-3 form-email\" data-for=\"email\">\n<input type=\"email\" name=\"email\" placeholder=\"Type your email...\" data-form-field=\"email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div data-for=\"telephone\" class=\"col-lg-4 col-md-12 col-sm-12 form-group\">\n<input type=\"text\" name=\"telephone\" placeholder=\"Telephone\" data-form-field=\"telephone\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Quelle Hagada vous interesse\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n<label mbr-text mbr-theme-style=\"display-7\" for=\"Quelle Hagada vous interesse\" class=\"form-control-label mbr-fonts-style\">Quelle Hagada vous interesse</label>\n<select name=\"Quelle Hagada vous interesse\" data-form-field=\"Quelle Hagada vous interesse\" mbr-theme-style=\"display-7\" class=\"form-control form-select\">\n<option value=\"Tunisienne\">Tunisienne</option>\n<option value=\"Marocaine\">Marocaine</option>\n<option value=\"Sepharade\">Sepharade</option>\n<option value=\"Ashkénaze\">Ashkénaze</option>\n</select>\n</div>\n<div data-for=\"textarea\" class=\"col-lg-12 form-group mb-3 form-message\">\n<textarea name=\"textarea\" placeholder=\"Message\" data-form-field=\"textarea\" mbr-theme-style=\"display-7\" class=\"form-control form-textarea\"></textarea>\n</div>\n<div class=\"col-lg-12 mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n<a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"w-100 w-100 w-100 btn btn-black-outline\">envoyez</a>\n</div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
           "_cid": "sUFMAQVUn7",
           "_anchor": "form2-1c",
           "_protectedParams": [],
