@@ -38,7 +38,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "Site-01-16_0556",
+    "name": "HAGADA",
     "versionFirst": "5.4.1",
     "siteFonts": [
       {
@@ -48,8 +48,19 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 3,
-    "versionPublish": "5.4.1"
+    "uniqCompNum": 7,
+    "versionPublish": "5.4.1",
+    "screenshot": "screenshot.png",
+    "chatbutton": {},
+    "favicon": false,
+    "mbrsiteDomain": "jae7pduwg8",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "pwa-switcher": false
   },
   "pages": {
     "index.html": {
@@ -1602,6 +1613,67 @@
           "_params": {}
         },
         {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
+                "title": "title 1",
+                "text": "text 1"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
+                "title": "title 2",
+                "text": "text 2"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
+                "title": "title 3",
+                "text": "text 3"
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_sourceTheme": "journalm5",
+          "_anchor": "wowslider-5"
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -1722,6 +1794,67 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
+                "title": "title 1",
+                "text": "text 1"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide2.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
+                "title": "title 2",
+                "text": "text 2"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/slide1.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
+                "title": "title 3",
+                "text": "text 3"
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_sourceTheme": "journalm5",
+          "_anchor": "wowslider-6"
         },
         {
           "alias": false,
