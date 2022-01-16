@@ -2294,10 +2294,63 @@ a {
   color: #3d3d3d;
   flex-grow: 1;
 }
+.cid-sUFVVMjmJw {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: url("../../../assets/images/mbr-1920x1142.png");
+}
+@media (min-width: 992px) {
+  .cid-sUFVVMjmJw .display-1 {
+    font-size: 80px;
+  }
+}
+.cid-sUFVVMjmJw .container-fluid {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width: 992px) {
+  .cid-sUFVVMjmJw .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.cid-sUFVVMjmJw .row {
+  padding: 0 32px;
+}
+.cid-sUFVVMjmJw .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+.cid-sUFVVMjmJw .card-title {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #c8a635;
+}
+.cid-sUFVVMjmJw .mbr-text {
+  margin-bottom: 10px;
+  color: #3d3d3d;
+}
+.cid-sUFVVMjmJw .iconfont-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.cid-sUFVVMjmJw .link-contacts {
+  display: flex;
+  justify-content: center;
+}
+.cid-sUFVVMjmJw .emerging-underline-link {
+  color: #3d3d3d;
+}
+.cid-sUFVVMjmJw .emerging-underline-link:not(:last-child) {
+  margin-right: 15px;
+}
 .cid-sUFACWT0gv {
   padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #fffdf7;
+  background-color: #edd3b8;
 }
 .cid-sUFACWT0gv .mbr-overlay {
   z-index: 1;
@@ -2513,7 +2566,7 @@ a {
 .cid-sUFACfUqSZ {
   padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #fffdf7;
+  background-color: #e9eaf8;
 }
 .cid-sUFACfUqSZ .mbr-overlay {
   z-index: 1;
