@@ -19,11 +19,11 @@ body {
 }
 .display-4 {
   font-family: 'Syne', sans-serif;
-  font-size: 1.31rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.6375rem;
+  font-size: 1.25rem;
 }
 .display-5 {
   font-family: 'Syne', sans-serif;
@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: 'Syne', sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 1.625rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -63,9 +63,9 @@ body {
     line-height: calc( 1.3 * (1.5005000000000002rem + (2.43 - 1.5005000000000002) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.048rem;
-    font-size: calc( 1.1085rem + (1.31 - 1.1085) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.1085rem + (1.31 - 1.1085) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.4rem;
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.2625rem + (1.75 - 1.2625) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.04rem;
+    font-size: calc( 1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.105rem + (1.3 - 1.105) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -587,12 +587,12 @@ a:hover {
 }
 .form-control {
   font-family: 'Syne', sans-serif;
-  font-size: 1.31rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6375rem;
+  font-size: 1.25rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -601,12 +601,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Syne', sans-serif;
-  font-size: 1.31rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.6375rem;
+  font-size: 1.25rem;
 }
 blockquote {
   border-color: #7f8678;
@@ -2332,7 +2332,7 @@ a {
   transform: scale(1);
 }
 .cid-sMGmWGfcsj .link {
-  color: #3d3d3d;
+  color: #c8a635;
 }
 .cid-sMGmWGfcsj .underlined-link {
   color: #3d3d3d;
@@ -2649,6 +2649,56 @@ a {
   margin-top: 0.5rem;
   color: #3d3d3d;
   flex-grow: 1;
+}
+.cid-XPwG2v1F9N .hidden {
+  display: none;
+}
+.cid-XPwG2v1F9N .witsec-socialbar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 99999;
+}
+.cid-XPwG2v1F9N .witsec-socialbar a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0%;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon {
+  margin: 0rem;
+}
+.cid-XPwG2v1F9N .witsec-socialbar a:hover {
+  background-color: #000000;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon1 {
+  background: #3b5998;
+  color: #ffffff;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon2 {
+  background: #55acee;
+  color: #ffffff;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon3 {
+  background: #dd4b39;
+  color: #ffffff;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon4 {
+  background: #007bb5;
+  color: #ffffff;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon5 {
+  background: #bb0000;
+  color: #ffffff;
+}
+.cid-XPwG2v1F9N .witsec-socialbar .icon6 {
+  background: #232323;
+  color: #ffffff;
 }
 .cid-sUFVVMjmJw {
   padding-top: 7rem;
